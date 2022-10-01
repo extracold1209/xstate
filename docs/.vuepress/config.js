@@ -25,6 +25,11 @@ module.exports = {
       title: 'Documentation XState',
       description:
         "Documentation XState : Machines d'état et diagrammes d'état pour le Web moderne"
+    },
+    '/ko/': {
+      lang: 'ko-KR',
+      title: 'XState 문서',
+      description: 'XState 문서 : 모던 웹을 위한 상태머신과 상태차트'
     }
   },
   markdown: {
@@ -300,6 +305,133 @@ module.exports = {
                 'Code de conduite'
               ],
               ['https://stately.ai/privacy', 'Politique de confidentialité']
+            ]
+          }
+        ]
+      },
+      '/ko/': {
+        label: '한국어',
+        editLinkText: '해당 문서 수정하기',
+        lastUpdated: '최근 변경',
+        nav: [
+          { text: 'API', link: 'https://paka.dev/npm/xstate/' },
+          { text: 'Visualizer', link: 'https://stately.ai/viz' },
+          { text: 'Discord', link: 'https://discord.gg/xtWgFTgvNV' },
+          {
+            text: 'Community',
+            link: 'https://github.com/statelyai/xstate/discussions'
+          }
+        ],
+        sidebar: [
+          {
+            title: 'XState 란?',
+            children: ['/ko/visualizer/']
+          },
+          {
+            title: 'About',
+            children: [
+              '/ko/about/concepts',
+              '/ko/about/goals',
+              '/ko/about/showcase',
+              '/ko/about/resources',
+              '/ko/about/tutorials',
+              '/ko/about/glossary'
+            ]
+          },
+          {
+            title: 'Guides',
+            children: [
+              '/ko/guides/start',
+              '/ko/guides/installation',
+              '/ko/guides/introduction-to-state-machines-and-statecharts/',
+              '/ko/guides/machines',
+              '/ko/guides/states',
+              '/ko/guides/statenodes',
+              '/ko/guides/events',
+              '/ko/guides/transitions',
+              '/ko/guides/hierarchical',
+              '/ko/guides/parallel',
+              '/ko/guides/final',
+              '/ko/guides/effects',
+              '/ko/guides/actions',
+              '/ko/guides/guards',
+              '/ko/guides/context',
+              '/ko/guides/models',
+              '/ko/guides/activities',
+              '/ko/guides/communication',
+              '/ko/guides/actors',
+              '/ko/guides/delays',
+              '/ko/guides/history',
+              '/ko/guides/ids',
+              '/ko/guides/interpretation',
+              '/ko/guides/testing',
+              '/ko/guides/typescript',
+              '/ko/guides/scxml'
+            ]
+          },
+          {
+            title: 'Tutorials',
+            children: [
+              '/ko/tutorials/reddit',
+              {
+                title: '7GUIs',
+                children: [
+                  '/ko/tutorials/7guis/counter',
+                  '/ko/tutorials/7guis/temperature',
+                  '/ko/tutorials/7guis/flight',
+                  '/ko/tutorials/7guis/timer'
+                ]
+              }
+            ]
+          },
+          {
+            title: 'Recipes',
+            children: [
+              '/ko/recipes/react',
+              '/ko/recipes/vue',
+              '/ko/recipes/rxjs',
+              '/ko/recipes/ember',
+              '/ko/recipes/stencil',
+              '/ko/recipes/svelte'
+            ]
+          },
+          {
+            title: 'Packages',
+            children: [
+              '/ko/packages/xstate-react/',
+              '/ko/packages/xstate-vue/',
+              '/ko/packages/xstate-graph/',
+              '/ko/packages/xstate-fsm/',
+              '/ko/packages/xstate-test/',
+              '/ko/packages/xstate-immer/',
+              '/ko/packages/xstate-inspect/',
+              '/ko/packages/xstate-svelte/',
+              '/ko/packages/xstate-cli/'
+            ]
+          },
+          {
+            title: 'Patterns',
+            children: ['/ko/patterns/sequence']
+          },
+          {
+            title: 'Examples',
+            children: [
+              '/ko/examples/counter',
+              '/ko/examples/todomvc',
+              '/ko/examples/calculator',
+              '/ko/examples/covid-tracker'
+            ]
+          },
+          {
+            title: 'News and Useful Links',
+            children: [
+              ['https://statelyai.canny.io', 'Roadmap'],
+              '/ko/updates/',
+              [
+                'https://github.com/statelyai/xstate/blob/main/CODE_OF_CONDUCT.md',
+                'Code of Conduct'
+              ],
+              ['https://stately.ai/privacy', 'Privacy Policy']
             ]
           }
         ]
